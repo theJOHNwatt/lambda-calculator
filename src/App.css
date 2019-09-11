@@ -1,15 +1,15 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
+    margin: 30px auto;
     height: 100px;
-    width: 450px;
+    width: 80%;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -19,4 +19,66 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin-bottom:10px;
+    
   }
+
+  .logo-container {
+      /* border:1px solid yellow; */
+      margin-top: 20px;
+      margin-left: 20px;
+      height: 10px;
+  }
+
+
+.numBtn, .operBtn, .spcBtn {
+   
+    border-radius: 60%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.637);
+    margin: 5px 15px;
+}
+
+.numBtn {
+    background-color: navy;
+    border: 1px solid rgba(0, 0, 128, 0.582);
+}
+
+.operBtn {
+    background-color:dodgerblue;
+    border: 1px solid rgba(30, 143, 255, 0.582);
+    display:flex;
+    justify-content: center;
+    margin-bottom:10px;
+    margin-right: 60px;
+}
+
+.operContainer {
+    display:inline-flex;
+    /* border: 1px solid yellow; */
+    justify-content: flex-end;
+   
+}
+
+.numContainer{
+    /* border: 1px solid yellow; */
+    width: 90%;
+    margin-left:20px;
+    
+}
+.spcContainer {
+    margin-left: 25px;
+}
+
+.spcBtn {
+    background-color: lightskyblue;
+    border: 1px solid rgba(135, 206, 250, 0.582);
+}
+.numBtn:nth-child(10) {
+    width: 170px;
+    border-radius:50px;
+}
